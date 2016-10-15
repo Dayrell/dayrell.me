@@ -1,0 +1,110 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+* {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+.navbar-default{ /* assigning the top bar to the entire navbar div element */
+    text-align: center;
+    background-color: black;
+    /* box-shadow: inset 0px 6px 0px #777; /* initial gray color to the top bar */
+}
+
+* {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.navbar-right {
+  margin-right: 100px;
+}
+
+.container-fluid {
+  margin-left: 50px;
+}
+
+.navbar-right a img {
+  height: 30px;
+  width: 30px;
+  max-width: 100px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.navbar-logo {
+  margin-left: 90px;
+}
+
+.navbar-brand .visible-xs {
+  line-height: 50px;
+
+}
+
+.navbar-brand {
+  line-height: 85px;
+  padding-top: 0;
+  height: 30px;
+  width: 30px;
+}
+
+
+.navbar-nav li a {
+    line-height: 85px;
+    height: 88px;
+    padding-top: 0;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    color: white
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-size: 130%;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+// footer styling
+footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
